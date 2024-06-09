@@ -1,6 +1,6 @@
 <script setup>
-import { useStore } from "vuex";
-const store = useStore();
+// import { useStore } from "vuex";
+// const store = useStore();
 </script>
 <template>
   <footer class="py-3 footer">
