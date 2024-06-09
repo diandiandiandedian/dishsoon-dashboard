@@ -1,7 +1,7 @@
 <script setup>
 import MiniStatisticsCard from "@/examples/Cards/MiniStatisticsCard.vue";
 import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
-import Carousel from "./components/Carousel.vue";
+// import Carousel from "./components/Carousel.vue";
 import CategoriesList from "./components/CategoriesList.vue";
 
 import US from "@/assets/img/icons/flags/US.png";
@@ -103,14 +103,14 @@ const sales = {
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-7 mb-lg">
+          <div class="col-lg-12 mb-lg">
             <!-- line chart -->
             <div class="card z-index-2">
               <gradient-line-chart
                 id="chart-line"
                 title="Sales Overview"
                 description="<i class='fa fa-arrow-up text-success'></i>
-      <span class='font-weight-bold'>4% more</span> in 2021"
+      <span class='font-weight-bold'>4% more</span> in 2024"
                 :chart="{
                   labels: [
                     'Apr',
@@ -133,9 +133,9 @@ const sales = {
               />
             </div>
           </div>
-          <div class="col-lg-5">
-            <carousel />
-          </div>
+<!--          <div class="col-lg-5">-->
+<!--            <carousel />-->
+<!--          </div>-->
         </div>
         <div class="row mt-4">
           <div class="col-lg-7 mb-lg-0 mb-4">

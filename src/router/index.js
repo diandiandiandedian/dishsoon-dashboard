@@ -1,11 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Tables from "../views/Tables.vue";
-
+import Dashboard from "../views/Dashboard.vue";
 const routes = [
   {
     path: "/",
     name: "/",
     redirect: "/dashboard-default",
+  },
+  {
+    path: "/dashboard-default",
+    name: "Dashboard",
+    component: Dashboard,
   },
   {
     path: "/tables",
