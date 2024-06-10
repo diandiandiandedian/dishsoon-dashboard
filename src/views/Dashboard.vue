@@ -47,7 +47,7 @@ const sales = {
         <div class="row">
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="Today's Money"
+              title="today‘s revenue"
               value="$53,000"
               description="<span
                 class='text-sm font-weight-bolder text-success'
@@ -75,7 +75,7 @@ const sales = {
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="New Clients"
+              title="New Registered Users"
               value="+3,462"
               description="<span
                 class='text-sm font-weight-bolder text-danger'
@@ -89,7 +89,7 @@ const sales = {
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="Sales"
+              title="Today‘s $DISH Earned"
               value="$103,430"
               description="<span
                 class='text-sm font-weight-bolder text-success'
